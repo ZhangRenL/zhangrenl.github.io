@@ -241,7 +241,8 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%); // 背景颜色
+    opacity: 0.8; //透明效果 值范围 0~1 
 }
 
 .text-color {
@@ -593,6 +594,7 @@ header .go-back i {
     font-weight: 400;
 }
 
+/* 主页图片背景渐变*/
 /*
 @-webkit-keyframes rainbow {
 
@@ -641,6 +643,7 @@ header .go-back i {
 }
 */
 
+/* 主页图片背景渐变*/
 /*
 @keyframes rainbow {
 
